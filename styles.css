@@ -1,1 +1,44 @@
 /*  your css code here. If applicable */
+body{
+font-family: Arial , sans-serif;
+height : 100vh;
+display : flex;
+justify-content : center;
+align-items : center;
+}
+#openModal{
+	padding:10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.modal{
+	display:none;
+	position:fixed;    
+	inset:0;
+	background-color: rbgba(0,0,0,0.5);
+	justify-content:center;
+	align-items: center;
+}
+.modal-content{
+	background-color:white;
+	width: 300px;
+	border-radius:6px;
+	overflow: hidden;
+			   }
+.modal-header{
+	display: flex;
+	background-color: green;
+	justify-content : space-between;
+	align-items: ;
+	padding : 1px 12px;
+	border-bottom : 1px solid #ddd;
+}
+.close-modal{
+	font-size: 26px;
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+.modal-body{
+	padding : 14px;
+}
